@@ -5,4 +5,4 @@ theme:
 nav:
  - Home: index.md
  - Tutorials:
-  - "Hello 423 in Go": tutorials/go-setup.md
+    - "Hello 423 in Go": tutorials/go-setup.md
