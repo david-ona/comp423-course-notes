@@ -131,7 +131,7 @@ Then, run the program directly with:
 
 ```./hello423```
 
-The build command is similar to the gcc command from COMP211. Both commands take a source code file as input and produce an executable file as output that you can then run. You can name the output executable with the argument after -o. The command go run compiles and runs the program in one step, but go build produces a standalone executable file.
+The build command is similar to the gcc command from COMP211. Both commands take a source code file as input and produce an executable file as output that you can then run. You can name the output executable with the argument after -o. The command ```go run``` compiles and runs the program in one step, but ```go build``` produces a standalone executable file.
 
 ## Commit your work.
 
