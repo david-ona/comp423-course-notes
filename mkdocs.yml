@@ -1,8 +1,17 @@
 site_name: COMP423 Course Notes
 theme:
   name: material
-
-nav:
- - Home: index.md
- - Tutorials:
-    - "Hello 423 in Go": tutorials/go-setup.md
+  features:
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
