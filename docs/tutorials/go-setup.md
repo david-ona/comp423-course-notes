@@ -70,11 +70,17 @@ Inside .devcontainer, create a devcontainer.json file, and add the following con
 }
 ```
 
+!!! warning "Warning"
+    Make sure your indentations are correct, and you remember all those commas! If your syntax is incorrect, your dev container will not work properly.
+
 ### Dev Container Configuration Explanation
 
 - name: The name of your container.
 - image: This tells the container which Docker image to use. Here, we use the latest version of Go.
 - customizations: Adds useful configurations to VS Code. Here, we install the Go extension for VS Code.
+
+!!! info "No Go download needed!"
+    Because we are using a dev container, there is no need to install Go directly on your local machine!
 
 ## Open the Project in the Dev Container
 
